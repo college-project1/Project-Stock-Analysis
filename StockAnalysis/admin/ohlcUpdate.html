@@ -45,7 +45,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="stocks.html">
               <i class="material-icons">apps</i>
               <p> Stocks
@@ -59,7 +59,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="ohlc.html">
               <i class="material-icons">trending_up</i>
               <p>OHLC</p>
@@ -102,7 +102,7 @@
             <div class="col-md-8 col-lg-12 ml-auto mr-auto">
               <div class="page-categories">
                 <br />
-             
+                <div class="tab-content tab-space tab-subcategories">
                   <div class="tab-pane active" id="link8">
                        <div class="container-fluid">
           <div class="row">
@@ -112,14 +112,14 @@
                   <div class="card-icon">
                     <i class="material-icons">update</i>
                   </div>
-                  <h4 class="card-title">Update Stock Details</h4>
+                  <h4 class="card-title">Update OHLC</h4>
                 </div>
                 <div class="card-body ">
                     <div class="row">
                   <div class="col-md-6">
                         <form method="#" action="#">
                     <div class="form-group">
-                      <label for="exampleEmail" class="bmd-label-floating">Stock Name</label>
+                      <label for="exampleEmail" class="bmd-label-floating">OHLC Trade Name</label>
                       <input type="text" class="form-control" id="exampleStock">
                     </div>
                  </form>
@@ -166,6 +166,38 @@
                         </select>
                         </div>
                     </div>
+                        <div class="col-md-2">
+                        <form method="#" action="#">
+                    <div class="form-group">
+                      <label for="exampleEmail" class="bmd-label-floating">Open Price</label>
+                      <input type="number" class="form-control" id="exampleSymbol">
+                    </div>
+                 </form>
+                    </div>
+                        <div class="col-md-2">
+                        <form method="#" action="#">
+                    <div class="form-group">
+                      <label for="exampleEmail" class="bmd-label-floating">High Price</label>
+                      <input type="number" class="form-control" id="exampleSymbol">
+                    </div>
+                 </form>
+                    </div>
+                        <div class="col-md-2">
+                        <form method="#" action="#">
+                    <div class="form-group">
+                      <label for="exampleEmail" class="bmd-label-floating">Low Price</label>
+                      <input type="number" class="form-control" id="exampleSymbol">
+                    </div>
+                 </form>
+                    </div>
+                        <div class="col-md-2">
+                        <form method="#" action="#">
+                    <div class="form-group">
+                      <label for="exampleEmail" class="bmd-label-floating">Close Price</label>
+                      <input type="number" class="form-control" id="exampleSymbol">
+                    </div>
+                 </form>
+                    </div>
                         </div>
                     </div>
                 <div class="card-footer ">
@@ -183,6 +215,7 @@
       </div>
         </div>
     </div>
+  </div>
     
   <script src="../js/core/jquery.min.js"></script>
   <script src="../js/core/popper.min.js"></script>
